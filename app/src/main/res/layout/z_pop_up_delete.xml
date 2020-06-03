@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:background="@drawable/scrollviewbg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SpacerSpacerSpacer"
+        android:textColor="@color/textcolor"
+        android:textSize="30dp"
+        android:fontFamily="@font/podkova_bold"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <Button
+            android:id="@+id/PUDaccept"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/left_confirm"
+            android:foreground="@drawable/ic_check_black_24dp" />
+
+        <Button
+            android:id="@+id/PUDdecline"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/right_decline"
+            android:foreground="@drawable/ic_clear_black_24dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

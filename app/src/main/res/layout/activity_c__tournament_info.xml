@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".C_TournamentInfo"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextViewStyle_SubHeadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:keepScreenOn="true"
+        android:text="Turnier\nInfos" />
+
+    <TextView
+        style="@style/TextViewStyle_Standard"
+        android:text="Wie funktioniert ein Turnier?"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        style="@style/TextViewStyle_Standard"
+        android:text="Spiele in 2er, 3er oder 4er Teams um den Sieg.\nDie Paarungen werden zufällig generiert.\
+Füge Spieler über den 'Hinzufügen'-Knopf hinzu und ändere die Teamnamen durch drücken auf das jeweilige Team.\
+Zurzeit sind folgende Modi funktionsfähig:\nK.O. Turniere mit 4 oder 8 Teams"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="20dp"/>
+</LinearLayout>

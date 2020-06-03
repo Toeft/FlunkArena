@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".B_ScoreBoard"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextViewStyle_SubHeadline"
+        android:layout_gravity="top"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:keepScreenOn="true"
+        android:text="Rangliste"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="wrap_content"
+        android:layout_height="480dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/SB_P1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/podkova_bold"
+                android:text="test"
+                android:textColor="@color/gold"
+                android:textSize="45sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/SB_P2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/podkova_bold"
+                android:text="test"
+                android:textColor="@color/silver"
+                android:textSize="43sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/SB_P3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/podkova_bold"
+                android:text="test"
+                android:textColor="@color/bronze"
+                android:textSize="40sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/SB_P4"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/SB_P5"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/SB_P6"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/SB_P7"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/SB_P8"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/SB_P9"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/SB_P10"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/SB_P11"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/SB_P12"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/SB_P13"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/SB_P14"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/SB_P15"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/SB_P16"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/SB_P17"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/SB_P18"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/SB_P19"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/SB_P20"
+                style="@style/TextViewStyle_Standard_Gone" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

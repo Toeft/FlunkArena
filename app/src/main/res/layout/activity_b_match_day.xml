@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".B_MatchDay"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextViewStyle_SubHeadline"
+        android:keepScreenOn="true"
+        android:text="Spieltag" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="300dp"
+        android:layout_height="220dp"
+        android:background="@drawable/scrollviewbg"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/MD_LL0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/MD_N1"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N2"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N3"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N4"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N5"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N6"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N7"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N8"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N9"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N10"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N11"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N12"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N13"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N14"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N15"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N16"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N17"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N18"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N19"
+                style="@style/TextViewStyle_Standard_Gone" />
+
+            <TextView
+                android:id="@+id/MD_N20"
+                style="@style/TextViewStyle_Standard_Gone" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/MD_BTN2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/leftbtn_c1"
+            android:fontFamily="@font/podkova_bold"
+            android:text="2"
+            android:textColor="@color/colorPrimary"
+            android:textSize="50sp"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="425dp" />
+
+        <Button
+            android:id="@+id/MD_BTN3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/middlebtn_c1"
+            android:fontFamily="@font/podkova_bold"
+            android:text="3"
+            android:textColor="@color/colorPrimary"
+            android:textSize="50sp"
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="425dp" />
+
+        <Button
+            android:id="@+id/MD_BTN4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/rightbtn_c1"
+            android:fontFamily="@font/podkova_bold"
+            android:text="4"
+            android:textColor="@color/colorPrimary"
+            android:textSize="50sp"
+            tools:layout_editor_absoluteX="255dp"
+            tools:layout_editor_absoluteY="425dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/MD_BTN_start"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@drawable/scrollviewbg"
+        android:fontFamily="@font/podkova_bold"
+        android:text="Start !"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+
+</LinearLayout>

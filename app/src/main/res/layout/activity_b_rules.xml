@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".B_Rules">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        android:layout_marginBottom="25dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViewStyle_Standard2"
+                android:text="Regel 1" />
+
+            <TextView
+                style="@style/TextViewStyle_Standard"
+                android:text="Es darf losgelaufen werden, wenn der Ball deutlich die Flasche verfehlt hat oder getroffen hat."
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                style="@style/TextViewStyle_Standard"
+                android:text="Strafe: Freiwurf"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="15sp" />
+
+            <TextView
+                style="@style/TextViewStyle_Standard2"
+                android:text="Regel 2"
+                />
+
+            <TextView
+                style="@style/TextViewStyle_Standard"
+                android:text="Es darf erst gewurfen werden wenn das Gegnerteam Bereitschaft signalisiert"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                style="@style/TextViewStyle_Standard"
+                android:text="Strafe: Freiwurf"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="15sp" />
+
+            <TextView
+                style="@style/TextViewStyle_Standard2"
+                android:text="Regel 3" />
+
+            <TextView
+                style="@style/TextViewStyle_Standard"
+                android:text="Erbrechen muss durch einen verbalen Ausdruck der Buchstaben T und K erfolgen."
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                style="@style/TextViewStyle_Standard"
+                android:text="Strafe: +1 Bier"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="15sp" />
+
+            <TextView
+                style="@style/TextViewStyle_Standard2"
+                android:text="Regel 4" />
+
+            <TextView
+                style="@style/TextViewStyle_Standard"
+                android:text="Das zu Fall bringen einer Dose und dem austreten von Flüssigkeit, ist strafbar. Die gefallene Dose wird durch eine neue ersetzt und muss nach Spielende zügig verzehrt werden."
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                style="@style/TextViewStyle_Standard"
+                android:text="Strafe: +1 Bier"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="15sp" />
+
+            <TextView
+                style="@style/TextViewStyle_Standard2"
+                android:text="Regel 5" />
+
+            <TextView
+                style="@style/TextViewStyle_Standard"
+                android:text="Bei Unsicherheit über den Füllstand seiner Dose, entscheidet eine parteilose Person"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/TextViewStyle_SubHeadline"
+        android:text="Regelwerk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

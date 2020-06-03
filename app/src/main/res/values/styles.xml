@@ -1,0 +1,153 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="AppTheme.PopupTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    
+    <style name="TextViewStyle_Standard_Gone" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:text">test</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="fontFamily">@font/podkova_bold</item>
+    </style>
+
+    <style name="TextViewStyle_Headline" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">65sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/bungee_shade</item>
+        <item name="android:layout_marginTop">27dp</item>
+        <item name="android:layout_marginBottom">47dp</item>
+    </style>
+
+    <style name="TextViewStyle_SubHeadline" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/bungee_shade</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginBottom">50dp</item>
+    </style>
+
+    <style name="TextViewStyle_MainMenuHeadline" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">48dp</item>
+    </style>
+
+    <style name="TextViewStyle_Standard" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:text">test</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="fontFamily">@font/podkova_bold</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="TextViewStyle_Standard2" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:text">test</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="fontFamily">@font/podkova_bold</item>
+    </style>
+
+    <style name="TextViewStyle_PatchNotes" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:text">test</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="TextViewStyle_StandardTurnamentFont" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:text">test</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/podkova_bold</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="TextViewStyle_HeadlineTurnamentFont" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/podkova_bold</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewStyle_StandardTeamTurnamentFont" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:text">test</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/podkova_bold</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+</resources>

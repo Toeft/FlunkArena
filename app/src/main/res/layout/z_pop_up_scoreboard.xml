@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/scrollviewbg"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/PU_playerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="playerName"
+        android:textColor="@color/textcolor"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/bungee_shade"/>
+
+    <TextView
+        android:id="@+id/PU_wins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wins"
+        android:textColor="@color/green"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/podkova_bold"/>
+
+    <TextView
+        android:id="@+id/PU_looses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Looses"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/podkova_bold"/>
+
+    <TextView
+        android:id="@+id/PU_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Points"
+        android:textColor="@color/textcolor"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/podkova_bold"/>
+
+    <TextView
+        android:id="@+id/PU_games"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Games"
+        android:textColor="@color/textcolor"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/podkova_bold"/>
+
+    <TextView
+        android:id="@+id/PU_quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quote"
+        android:textColor="@color/textcolor"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:maxLength="11"
+        android:fontFamily="@font/podkova_bold"/>
+
+    <TextView
+        android:id="@+id/PU_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alert"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/red"
+        android:fontFamily="@font/podkova_bold"/>
+
+</LinearLayout>

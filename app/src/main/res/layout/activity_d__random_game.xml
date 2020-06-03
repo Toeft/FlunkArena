@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".D_RandomGame"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView style="@style/TextViewStyle_SubHeadline" android:text="Zufällig" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/scrollviewbg"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="10"
+                app:errorEnabled="true"
+                android:textAlignment="center">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/DRG_nameInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/textcolor"
+                    android:fontFamily="@font/podkova_bold"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/DRG_addBTN"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="@drawable/scrollviewbg"
+                android:text="Hinzufügen"
+                android:textSize="30sp"
+                android:fontFamily="@font/podkova_bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/scrollviewbg"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="24dp">
+
+                <LinearLayout
+                    android:id="@+id/DRG_linLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal">
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="24dp">
+
+                <Button
+                    android:id="@+id/DRG_BTN2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/leftbtn_c1"
+                    android:fontFamily="@font/podkova_bold"
+                    android:text="2"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="50sp"
+                    tools:layout_editor_absoluteX="55dp"
+                    tools:layout_editor_absoluteY="425dp" />
+
+                <Button
+                    android:id="@+id/DRG_BTN3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/middlebtn_c1"
+                    android:fontFamily="@font/podkova_bold"
+                    android:text="3"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="50sp"
+                    tools:layout_editor_absoluteX="155dp"
+                    tools:layout_editor_absoluteY="425dp" />
+
+                <Button
+                    android:id="@+id/DRG_BTN4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/rightbtn_c1"
+                    android:fontFamily="@font/podkova_bold"
+                    android:text="4"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="50sp"
+                    tools:layout_editor_absoluteX="255dp"
+                    tools:layout_editor_absoluteY="425dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/DRG_startBTN"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:background="@drawable/scrollviewbg"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="24dp"
+                android:text="Start!"
+                android:textSize="50sp"
+                android:fontFamily="@font/podkova_bold"
+                android:textColor="@color/colorPrimary"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

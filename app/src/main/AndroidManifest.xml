@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anotherfailedproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".C_TournamentInfo"></activity>
+        <activity android:name=".C_TournamentResult" />
+        <activity android:name=".C_TournamentFinal" />
+        <activity android:name=".C_TournamentHalf" />
+        <activity android:name=".C_TournamentQuarter" />
+        <activity android:name=".D_RandomGame" />
+        <activity android:name=".D_MainMenu" />
+        <activity android:name=".C_CreateTurnament" />
+        <activity android:name=".C_MainMenu" />
+        <activity android:name=".A_MainMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".B_Rules" />
+        <activity android:name=".B_PatchNotes" />
+        <activity android:name=".B_AfterGame" />
+        <activity android:name=".B_ScoreBoard" />
+        <activity android:name=".B_Game" />
+        <activity android:name=".B_PlayerEdit" />
+        <activity android:name=".B_MatchDay" />
+        <activity android:name=".B_MainMenu" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
